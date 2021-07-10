@@ -3,7 +3,6 @@
 :root {
     --primary-color: #EF4444;
     --middle-color: #FEE2E2;
-    --darker-color: #7F1D1D
     ;
 }
 
@@ -17,6 +16,7 @@ hr {
     margin: 2rem 0rem;
 }
 
+
 /* container */
 /* Padding: The CSS padding properties are used to generate space around an element's content */
 
@@ -28,6 +28,7 @@ hr {
     max-width: 400px;
     margin: auto;
     display: block;
+    text-align: center;
 }
 
 /* Links */
@@ -52,7 +53,6 @@ hr {
 
 .link-active {
     font-weight: bolder;
-    background-color: var(--darker-color);
     border-radius: 0.5rem;
 
 }
@@ -77,6 +77,7 @@ hr {
     font-size: 1.4rem;
     font-weight: bolder;
 }
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -127,6 +128,7 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -137,6 +139,7 @@ hr {
 .section p {
     font-size: 1.2rem
 }
+
 .ow {
     background-color: var(--middle-color);
 }
