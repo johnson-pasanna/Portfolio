@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
 
 :root {
-    --primary-color: #EF4444; 
-    --middle-color: #FECACA;
+    --primary-color: #EF4444;
+    --middle-color: #FEE2E2;
+    ;
 }
 
 
@@ -30,7 +31,7 @@ hr {
 
 /* Links */
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
@@ -74,7 +75,7 @@ hr {
     color: white;
 }
 
-.navigation  .nav-pills {
+.navigation .nav-pills {
     text-align: right;
 }
 
@@ -95,12 +96,47 @@ hr {
 .hero-image {
     margin: auto;
     display: block;
-    max-width: 600px;   
+    max-width: 600px;
 }
- .hero-heading {
-    font-size: 2rem;
- }
 
- .hero span {
-     color: var(--primary-color);
- }
+.hero-heading {
+    font-size: 2rem;
+}
+
+.hero span {
+    color: var(--primary-color);
+}
+
+/* section*/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--middle-color);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.footer-social-links {
+    padding-inline-start: 0px;
+
+}
