@@ -3,6 +3,8 @@
 :root {
     --primary-color: #EF4444;
     --middle-color: #FEE2E2;
+    --darker-color: #7F1D1D
+    ;
 }
 
 
@@ -48,6 +50,13 @@ hr {
     color: black
 }
 
+.link-active {
+    font-weight: bolder;
+    background-color: var(--darker-color);
+    border-radius: 0.5rem;
+
+}
+
 
 /* Lists */
 
@@ -63,15 +72,20 @@ hr {
 
 /* Navigation */
 
+
+.navigation-header {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
 .navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
 }
 
 .navigation .link {
     color: white;
+    font-size: 1.2rem;
 }
 
 .navigation .nav-pills {
@@ -140,9 +154,26 @@ hr {
 
 .footer a {
     color: white;
+    font-size: 1.2rem;
 }
 
 .footer-social-links {
     padding-inline-start: 0px;
 
+}
+
+.footer-social-icon {
+    display: inline;
+}
+
+.footer-social-icon-image {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: center;
+}
+
+.footer-header {
+    font-size: 1.4rem;
+    font-weight: bolder;
 }
