@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+} */
+
+:root {
+    --primary-color: #FBBF24; 
+}
+
+
+body {
+    font-family: Mulish, sans-serif, 'Times New Roman', Times, serif;
+}
+
+
+/* container */
+/* Padding: The CSS padding properties are used to generate space around an element's content */
+
+
+
+
+.container {
+    background-color: aqua;
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    background-color: bisque;
+    max-width: 600px;
+    margin: auto;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+/* Links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+
+/* Lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    padding: 0 0.5rem;
+    display: inline;
+}
