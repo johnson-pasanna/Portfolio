@@ -3,7 +3,6 @@
 :root {
     --primary-color: #EF4444;
     --middle-color: #FEE2E2;
-    ;
 }
 
 
@@ -96,7 +95,7 @@ hr {
 .hero-image {
     margin: auto;
     display: block;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .hero-heading {
@@ -107,6 +106,9 @@ hr {
     color: var(--primary-color);
 }
 
+
+
+
 /* section*/
 
 .section {
@@ -115,8 +117,12 @@ hr {
 
 .section h1 {
     text-align: center;
+    font-size: 2rem;
 }
 
+.section p {
+    font-size: 1.2rem
+}
 .ow {
     background-color: var(--middle-color);
 }
