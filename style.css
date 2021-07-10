@@ -112,10 +112,31 @@ hr {
 .section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
 }
 
 .ow {
     background-color: var(--middle-color);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.footer-social-links {
+    padding-inline-start: 0px;
+
 }
