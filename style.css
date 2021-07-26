@@ -16,7 +16,9 @@ hr {
     margin: 2rem 0rem;
 }
 
-
+a {
+    text-decoration: none;
+}
 /* container */
 /* Padding: The CSS padding properties are used to generate space around an element's content */
 
