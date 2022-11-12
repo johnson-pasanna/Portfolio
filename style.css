@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #EF4444;
+    --middle-color: #FEE2E2;
+    ;
+}
+
+
+body {
+    font-family: Mulish, sans-serif, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+/* container */
+/* Padding: The CSS padding properties are used to generate space around an element's content */
+
+.container {
+    padding: 2rem;
+}
+
+.container-center {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+/* Links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: black
+}
+
+.link-active {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+
+}
+
+
+/* Lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+
+/* Navigation */
+
+
+.navigation-header {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/* header */
+
+
+.hero {
+    padding: 2rem;
+    /* background-color: var(--primary-color); */
+    text-align: center;
+}
+
+.hero-image {
+    margin: auto;
+    display: block;
+    max-width: 500px;
+}
+
+.hero-heading {
+    font-size: 2rem;
+}
+
+.hero span {
+    color: var(--primary-color);
+}
+
+
+
+
+/* section*/
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section p {
+    font-size: 1.2rem
+}
+
+.ow {
+    background-color: var(--middle-color);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-social-links {
+    padding-inline-start: 0px;
+
+}
+
+.footer-social-icon {
+    display: inline;
+}
+
+.footer-social-icon-image {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: center;
+}
+
+.footer-header {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
